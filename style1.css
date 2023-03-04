@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:aqua;
+}
+.outer-box{
+    height: 100vh;
+    width: 100vw;
+
+}
+.inner-box{
+     
+    width: 350px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+   top: 40%;
+   transform: translateY(-50%);
+   padding: 20px,40px;
+   border-radius: 8px;
+   box-shadow: 4px 4px 20px rgb(46, 203, 7);
+   cursor: context-menu;
+}
+.name{
+    margin: 20px;
+    text-align: center;
+    border-radius: 4px;
+    border-color: blueviolet;
+    background-color:aqua;
+    
+}
+.pass{
+    margin: 3px;
+    text-align: center;
+    border-radius: 2px;
+    border-color: blue;
+    background-color: aqua;
+}
+.forgot{
+    margin: 2px;
+    font-size:0.8rem;
+    font-style: oblique;
+    cursor: pointer;
+    padding-right: 70px;
+}
+.class1{
+    /* margin: 8px;
+    color: whitesmoke;
+    background-color: red;
+    width: 1wh; */
+    height: 20px;
+    width: 170px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 2px;
+    border-color: red;
+    background-color: red;
+    cursor: pointer;
+    color: aqua;
+}
